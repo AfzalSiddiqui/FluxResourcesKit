@@ -1,0 +1,138 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.FluxResourcesKit-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/FluxResourcesKit.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FluxResourcesKit",
+      "moduleOutputPath" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.swiftmodule",
+      "objects" : [
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/FluxResourcesKit.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/FluxResourcesKit-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/FluxResourcesKit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/FluxResourcesKit.swift"
+      ],
+      "tempsPath" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "FluxResourcesKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FluxResourcesKit",
+      "-incremental",
+      "-c",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/FluxResourcesKit.swift",
+      "-I",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/FluxResourcesKit-Swift.h",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "FluxResourcesKit" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  }
+}

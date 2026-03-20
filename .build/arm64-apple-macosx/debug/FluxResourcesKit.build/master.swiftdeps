@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "ddb8451d8767a60d762889c900331743da251673310fd865409f8baefbbaee8a"
+build_start_time: [1773998936, 954698000]
+build_end_time: [1773998937, 257080000]
+inputs:
+  "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/FluxResourcesKit.swift": [1773998784, 125912631]
