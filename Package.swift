@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "FluxResourcesKit",
+    defaultLocalization: "en",
     platforms: [
         .iOS(.v16),
         .macOS(.v13)
@@ -16,7 +17,10 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "FluxResourcesKit"
+            name: "FluxResourcesKit",
+            resources: [
+                .process("Resources")
+            ]
         )
     ]
 )

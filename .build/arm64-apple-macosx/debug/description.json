@@ -3,7 +3,48 @@
 
   ],
   "copyCommands" : {
-
+    "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit_FluxResourcesKit.bundle/Info.plist" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/Info.plist"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit_FluxResourcesKit.bundle/Info.plist"
+        }
+      ]
+    },
+    "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit_FluxResourcesKit.bundle/ar.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/Resources/ar.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit_FluxResourcesKit.bundle/ar.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit_FluxResourcesKit.bundle/en.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/Resources/en.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit_FluxResourcesKit.bundle/en.lproj/Localizable.strings"
+        }
+      ]
+    }
   },
   "explicitTargetDependencyImportCheckingMode" : {
     "none" : {
@@ -24,13 +65,32 @@
         {
           "kind" : "file",
           "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/FluxResourcesKit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/Images/FluxImages.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/Strings/FluxStrings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<FluxResourcesKit-debug.module-resources>"
         }
       ],
       "isLibrary" : true,
       "moduleName" : "FluxResourcesKit",
       "moduleOutputPath" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.swiftmodule",
       "objects" : [
-        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/FluxResourcesKit.swift.o"
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/FluxResourcesKit.swift.o",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/Images/FluxImages.swift.o",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/Strings/FluxStrings.swift.o",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/resource_bundle_accessor.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -69,11 +129,26 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/Images/FluxImages.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/Strings/FluxStrings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.swiftmodule"
         }
       ],
       "sources" : [
-        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/FluxResourcesKit.swift"
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/FluxResourcesKit.swift",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/Images/FluxImages.swift",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/Strings/FluxStrings.swift",
+        "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/DerivedSources/resource_bundle_accessor.swift"
       ],
       "tempsPath" : "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build",
       "wholeModuleOptimization" : false
@@ -90,6 +165,9 @@
       "-incremental",
       "-c",
       "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/FluxResourcesKit.swift",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/Images/FluxImages.swift",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/Sources/FluxResourcesKit/Strings/FluxStrings.swift",
+      "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug/FluxResourcesKit.build/DerivedSources/resource_bundle_accessor.swift",
       "-I",
       "/Users/mac/Desktop/GithubProject/FluxDesignComponent/FluxResourcesKit/.build/arm64-apple-macosx/debug",
       "-target",

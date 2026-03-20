@@ -1,1 +1,3 @@
-// FluxResourcesKit — Shared assets, icons, and resources
+// FluxResourcesKit — Shared assets, icons, and localized resources
+
+import Foundation
