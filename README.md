@@ -1,9 +1,9 @@
-# FluxResourcesKit ⭐
+# flux-ios-assets ⭐
 
 **Tagline:** All your app strings, images, videos, and GIFs — centralized, type-safe, and multi-language ready.
 
 ## Overview
-`FluxResourcesKit` centralizes all app-driven assets in a **single Swift Package**.  
+`flux-ios-assets` centralizes all app-driven assets in a **single Swift Package**.
 It provides **type-safe access** to:
 
 - **Strings** (localized, multi-language, RTL-ready)
@@ -11,7 +11,7 @@ It provides **type-safe access** to:
 - **Videos** (local + remote)
 - **GIFs** (local + remote)
 
-This separation allows **FluxComponentsKit** to remain generic, reusable, and fully app-independent.
+This separation allows **flux-ios-foundation** to remain generic, reusable, and fully app-independent.
 
 ---
 
@@ -25,4 +25,3 @@ This separation allows **FluxComponentsKit** to remain generic, reusable, and fu
 - ✅ Easy to **extend per app** without modifying UI components
 
 ---
-
