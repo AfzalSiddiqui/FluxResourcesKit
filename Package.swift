@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "FluxResourcesKit",
+    name: "flux-ios-assets",
     defaultLocalization: "en",
     platforms: [
         .iOS(.v16),
@@ -11,13 +11,14 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "FluxResourcesKit",
-            targets: ["FluxResourcesKit"]
+            name: "flux-ios-assets",
+            targets: ["flux-ios-assets"]
         )
     ],
     targets: [
         .target(
-            name: "FluxResourcesKit",
+            name: "flux-ios-assets",
+            path: "Sources/flux-ios-assets",
             resources: [
                 .process("Resources")
             ]
